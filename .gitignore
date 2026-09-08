@@ -1,0 +1,9 @@
+# Somente os arquivos públicos da vitrine são versionados.
+/*
+!/.gitignore
+!/.nojekyll
+!/README.md
+!/index.html
+!/styles.css
+!/script.js
+!/kiwify-config.js

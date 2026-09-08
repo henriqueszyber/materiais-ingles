@@ -1,18 +1,12 @@
-# Lessonly
+# Materiais para aulas de inglês
 
-Vitrine de materiais para aulas de inglês, com espaço reservado para um vídeo dos materiais impressos.
+Landing page para apresentar dois pacotes de materiais digitais e encaminhar o comprador ao checkout da Kiwify.
 
-O checkout Kiwify está preparado, mas as vendas permanecem desativadas até que os produtos sejam cadastrados e os links reais sejam preenchidos em `kiwify-config.js`.
+Os botões de compra só são ativados quando `salesReady` for alterado para `true` depois de:
 
-## Arquivos públicos
+- concluir o cadastro obrigatório da Kiwify;
+- colocar os arquivos na área de membros de cada produto;
+- conferir a entrega e o conteúdo dos dois pacotes;
+- testar os links de checkout.
 
-- `index.html`: página da loja.
-- `styles.css`: visual responsivo.
-- `script.js`: botões de checkout e instruções de acesso.
-- `kiwify-config.js`: links públicos de compra; nunca colocar senhas ou tokens.
-
-Os PDFs pagos e o catálogo interno não fazem parte deste repositório. A entrega será feita pela área de membros da Kiwify.
-
-## Prévia
-
-Abra `index.html` no navegador. O vídeo ainda não está disponível e os botões de compra mostram “Em breve”.
+Os arquivos pagos não ficam neste repositório público. A entrega é feita pela área de membros da Kiwify.

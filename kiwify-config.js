@@ -1,9 +1,11 @@
-// Cole aqui os links copiados de Produtos > Links na Kiwify.
-// Este arquivo é público: nunca inclua senhas, tokens ou PDFs.
+// Apenas links públicos. Nunca inserir senhas ou tokens.
 window.KIWIFY_CONFIG = {
   checkouts: {
-    'bloco-1': '',
-    'bloco-2': '',
-    'bloco-3': ''
-  }
+    basico: 'https://pay.kiwify.com.br/QHLu8cl',
+    completo: 'https://pay.kiwify.com.br/G4HNBa1'
+  },
+  // Ativar somente após conferir preços, conteúdo e entrega na Kiwify.
+  salesReady: false,
+  supportEmail: '',
+  videoUrl: ''
 };

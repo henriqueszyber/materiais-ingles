@@ -4,8 +4,8 @@ window.KIWIFY_CONFIG = {
     basico: 'https://pay.kiwify.com.br/QHLu8cl',
     completo: 'https://pay.kiwify.com.br/G4HNBa1'
   },
-  // Ativar somente após conferir preços, conteúdo e entrega na Kiwify.
-  salesReady: false,
+  // Ativado após conferir preços, conteúdo e entrega na Kiwify.
+  salesReady: true,
   supportEmail: '',
   videoUrl: ''
 };
